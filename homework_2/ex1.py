@@ -1,5 +1,3 @@
-# First bullet
-
 def calculate_sum(*args, **kwargs):
     sum = 0
     all_args = list(args) + list(kwargs.values())

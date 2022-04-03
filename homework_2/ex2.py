@@ -35,17 +35,3 @@ def sum_recursive_odd(n):
 
 
 print(sum_recursive_odd(5))
-
-# Fourth bullet
-
-
-def integer_number():
-    try:
-        number = int(input())
-    except:
-        return 0
-    else:
-        return number
-
-
-print(integer_number())
